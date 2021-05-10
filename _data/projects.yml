@@ -1,0 +1,31 @@
+project_list:
+    personal_website:
+        url:    "https://github.com/joexu22/joexu22.github.io"
+        title:  My Website
+        tag:    Bootstrap | Jekyll | LAMP
+        descr:  This website is my foray into web development. Originally a static github.io page, it is now hosted on AWS as a "LAMP" project (172.31.95.201).
+    tensor_flow_project:
+        url:	"https://github.com/joexu22/MachineLearningPractice"
+        title:	Machine Learning
+        tag:	TensorFlow | CUDA
+        descr:	My Machine Learning Repo. Messing around with some style transfer.
+    flavortown_app:
+        url:    "https://flavortownproject.github.io/FlavorTownDocumentation/"
+        title:  Flavortown Food Rating App
+        tag:    Android | Firebase | Project Management
+        descr:  Android app made for my CS senior project. A location based restaurant rating app. This project is dated (Fall 2016) before Google Guides (Spring 2017).
+    news_summary_app:
+        url:    "https://github.com/Myriad-CS407/Myriad"
+        title:  News Summary App
+        tag:    UX | Heroku
+        descr:  News summary app with a focus on User Experience.
+    bama_web_scraper:
+        url:    "https://github.com/joexu22/BamaWebScraper"
+        title:  Bama Web Scraper
+        tag:    Selenium | BeautifulSoup
+        descr:  Web Scraping script; automates data scraping of a particular web domain. Uses some retrofitted automation techniques from my time as a DVT engineer.
+    love_letter:
+        url:    "/404"
+        title:  Love Letters
+        tag:    Chronjob | Twilio
+        descr:  An automated SMS program. Generates Automated Text Messages for a girl I used to like. Need to separate my Twilio keycodes, phone numbers, and private info ;) from the project before the code is make public.

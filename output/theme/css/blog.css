@@ -1,0 +1,84 @@
+/* Blog Titles */
+.blog-header{
+    margin: 25px 0;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Fantasque Sans Mono'
+}
+
+.blog-title h1{
+    margin: 0;
+    font-size: 4.0em;
+}
+
+.blog-subtitle h2{
+    margin: 0;
+    font-size: 3.0em;
+}
+
+.blog-content{
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Fantasque Sans Mono'
+}
+
+.blog-article{
+	text-align: center;
+	font-family: 'Fantasque Sans Mono'
+}
+
+.blog-post{
+    overflow:auto; 
+    padding-top:10px;
+    margin-bottom: 10px;
+    clear:both;        
+}        
+
+.blog-meta{
+	font-family: 'Fantasque Sans Mono'
+}
+
+.blog-post:hover {
+    border: 1px dashed #c0c0c0 ;
+}
+
+/* The Thumbnail Display */
+.blog-thumb {
+    margin-bottom: 30px;
+	margin-right: 10px;
+    float:left;
+	border-radius: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.blog-thumb img {
+    border-radius: 100%;
+    display: block;
+    border:1px solid #fff;
+}
+.blog-thumb:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 75%,rgba(255,255,255,1) 100%);
+    border-radius: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.blog-image {
+    float: center;
+}
+
+.blog-excerpt {
+    float: left;
+    padding-left:35px;
+    font-size: 14px;
+    line-height: 17px;
+    overflow: hidden;
+    width: 800px; /* fallback for emergencies */
+    width: calc(100% - 200px);
+	font-family: 'Fantasque Sans Mono'
+}

@@ -1,0 +1,60 @@
+/* resume form */
+
+.call-sign {
+    font-family: 'Roboto' margin: 10px auto;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/* social media icons */
+
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+.icon-list {
+    text-align: center;
+    display: inline;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-globe {
+    color: #AAA;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-envelope-o {
+    color: #AAA;
+}
+
+
+/* resume */
+
+.resume-form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/* utilities */
+
+.section-header h2 {
+    border-style: groove;
+    font-weight: bold;
+    padding-left: .5em;
+}
+

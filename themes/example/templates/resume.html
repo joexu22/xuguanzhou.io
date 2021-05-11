@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-xs-12 text-center">
+	<section class="call-sign">
+		<!-- nice business card like information -->
+		<div class="col-xs-12">
+			<a class="profile-image" href="{{ SITE_URL }}/">
+				<img src="{{ SITE_URL }}/{{ THEME_STATIC_DIR }}/images/profile.png"
+					style="width: 100px; border: 1px solid rgba(150, 150, 150, 1); border-radius: 100%; padding: 3px;" />
+			</a>
+		</div>
+		<div class="col-xs-12">
+			<i class="fa fa-globe"></i> {{ CITY_LOCATION }}, {{ STATE_LOCATION }}, {{ COUNTRY_LOCATION }}
+			<i class="fa fa-globe"></i>
+		</div>
+		<div class="col-xs-12">
+			<i class="fa fa-phone"></i> {{ PHONE_NUMBER }} <i class="fa fa-flip-horizontal fa-phone"></i>
+		</div>
+		<div class="col-xs-12">
+			<i class="fa fa-envelope-o"></i> {{ EMAIL_ADDRESS }} <i class="fa fa-envelope-o"></i>
+		</div>
+		<div class="col-xs-12">
+			<i class="fa fa-calendar"></i> Last Updated : {{ CURRENT_DATE }} <i class="fa fa-calendar"></i>
+		</div>
+	</section>
+</div>
+</div>
+<article class="resume-form">
+<div class="row">
+	<div class="col-xs-6 text-center">
+		<h1><strong>{{ AUTHOR }} - "{{ NICKNAME }}" </strong></h1>
+	</div>
+	<div class="col-xs-6 text-center">
+		<div class="icon-list">
+			<h1>
+				<a href="https://github.com/joexu22" class="fa fa-github"></a>
+				<a href="https://www.linkedin.com/in/joe-xu-7140615a/" class="fa fa-linkedin"></a>
+				<a href="https://twitter.com/CynicalDreamer2" class="fa fa-twitter"></a>
+				<a href="/" class="fa fa-globe"></a>
+				<a href="{{ SITE_URL }}/contact/" class="fa fa-envelope-o"></a>
+			</h1>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center">
+		<div class="page">
+			<article class="page-content">
+				<div style="text-align:center;"> {{ ABOUT }} </div>
+			</article>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<header class="section-header">
+		<h2>Work Experience</h2>
+	</header>
+	<h3>Software Contractor, 2017-present</h3>
+	<h4>GCIT at Reston, VA</h4>
+	<h3>Software Contactor/Consultant Experience</h3>
+	<h3>Education Nonprofit Experience</h3>
+	<h4>Worked on prototype graphical databases relating to critical infrastructure</h4>
+	<h4>Assisted in the architecture of vital business decisions</h4>
+	<h4>Maintained and improved a statistical package used by high impact decision makers</h4>
+	<h4>Developed authorization and authentication features for internal APIs</h4>
+	<h4>Migrated legacy Java enterprise application to AWS (Amazon Web Services)</h4>
+	<br>
+	<h3>Computer Science Co-Op, 2015-2016</h3>
+	<h4>ADTRAN, INC. at Huntsville, AL</h4>
+	<h3>3 Term Co-Op</h3>
+	<h4>Software Development Engineer</h4>
+	<h4>Embedded Software Engineer</h4>
+	<h4>Design Verification Test (DVT) Engineer</h4>
+	<h3>Experience</h3>
+	<h4>Evaluated and advocated software design solutions with senior stakeholders</h4>
+	<h4>Developed cloud-based APIs pushed into the field (allegedly serving millions)</h4>
+	<h4>Read, refactored, and debugged embedded hardware code for fiber-optic switching devices</h4>
+	<h4>Designed and built an automation test suit for networking hardware/software</h4>
+	<h4>Troubleshot, maintained, and built server racks of networking equipment</h4>
+</div>
+<div class="row">
+	<header class="section-header">
+		<h2>Skills</h2>
+	</header>
+	<h4>Programming Skills - Python (scripts), Java (object oriented), etc.</h4>
+	<h4>Computer Science - Theory and Architecture</h4>
+	<h4>Mathematics - Basic Real Analysis</h4>
+	<h4>Liberal Arts Background - Ethics, Humanities, "Great Works"</h4>
+	<h4>Multicultural Background - Chinese/American</h4>
+	<h4>Spirituality - Chasing my calling</h4>
+	<h4>Youth - I am motivated as a young adult</h4>
+</div>
+<div class="row">
+	<header class="section-header">
+		<h2>Education</h2>
+	</header>
+	<h3>Bachelor of Science in Computer Science</h3>
+	<h4>The University of Alabama &bull; Tuscaloosa, Alabama</h4>
+	<h5>Cumulative GPA : 3.43/4.00</h5>
+	<h5>Honers College</h5>
+	<h5>National Merit Scholar</h5>
+	<h3>High School Diploma</h3>
+	<h4>Chandler Preparatory Academy &bull; Chandler, Arizona</h4>
+	<h5>Cumulative GPA : 3.83/4.00</h5>
+	<h5>Liberal Arts Education</h5>
+	<h5>Math Honers</h5>
+	<h5>Coach's Award (football)</h5>
+</div>
+<div class="row">
+	<header class="section-header">
+		<h2>Activities</h2>
+	</header>
+	<h3>Education</h3>
+	<h4>Fueling my curiosity</h4>
+	<h4>Seeking discussion</h4>
+	<h3>Stock Trading</h3>
+	<h4>Long Term Value Investing</h4>
+	<h4>Selling Options - Why play at the casino when I can be the casino</h4>
+	<h4>"Power to the Player" - GameStop</h4>
+</div>
+<div class="row">
+	<header class="section-header">
+		<h2>Hobbies</h2>
+	</header>
+	<h3>Machine Learning Enthusiast</h3>
+	<h4>Vibing with AI</h4>
+	<h4>Already passed the Turning Test in my book</h4>
+	<h3>Leisure/Philosophy</h3>
+	<h4>I owe my career to the liberal arts</h4>
+</div>
+{% endblock %}

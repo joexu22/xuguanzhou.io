@@ -3,6 +3,8 @@ Title: Joe's Open Letter
 Subtitle: A New Years Resolution & My Current Life Goals
 Author: Joe Xu
 Date: 2017-12-31
+Tag: Goals
+Image: goals.png
 ---
 
 **Goals: For the Future**

@@ -3,6 +3,8 @@ Title: A Look Back
 Subtitle: A New New Years Resolution
 Author: Joe Xu
 Date: 2020-12-27
+Tag: Goals
+Image: swerving_off_road.png
 ---
 
 **Goals: For the Future**

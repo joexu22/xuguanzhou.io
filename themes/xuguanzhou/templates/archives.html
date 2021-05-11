@@ -1,14 +1,36 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITE_NAME }} - Archives{% endblock %}
+{% block title %}{{ SITE_NAME }} - Blog Posts {% endblock %}
 
 {% block content %}
-<h1>Archives for {{ SITE_NAME }}</h1>
+
+<header class="blog-header">
+	<h1 class="blog-title"> Title: Topics, Rambles, and Abstract Nonsense </h1>
+	<h2 class="blog-subtitle"> Subtitle: Inner Workings of a Random Old Joe </h2>
+</header>
 
 <dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="/{{ article.url }}">{{ article.title }}</a></dd>
+{% for category, articles in categories %}
+	{% if category=="posts" %}
+		{% for article in articles|sort(attribute="date", reverse=true) %}
+			<div class="blog-post" style="display:block" onclick="location.href='/{{ article.url }}'" style="cursor: pointer">
+				<div class="blog-thumb"> 
+					<a href="/"><img width="200px;" src='{{ SITE_URL }}/{{ THEME_STATIC_DIR }}/images/project/{{ article.image }}'></a>
+				</div>
+				<div class="blog-content">
+					<div class="blog-article">
+						<h3> 
+							{{ article.title }}
+						</h3>
+					</div>
+					<div class="blog-meta"> {{ article.date.strftime("%d %b %Y") }} | {{ article.tag }} </div>
+					<div class="project_excerpt"> 				
+						<b> {{ article.subtitle }}</b>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	{% endif %}
 {% endfor %}
 </dl>
 {% endblock %}

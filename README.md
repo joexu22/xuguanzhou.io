@@ -37,3 +37,6 @@ This website contains the following:
 # Dev Notes
 * ```pelican content -s pelicanconf.py -t ./themes/xuguanzhou/```
 * ```pelican --listen```
+
+# Deploy Notes
+* ```rsync -avc --delete output/ /var/www/html```

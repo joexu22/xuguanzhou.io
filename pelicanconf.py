@@ -8,6 +8,7 @@ from config.my_config import *
 from _data.resume import *
 
 AUTHOR = 'Xu GuanZhou'
+NICKNAME = 'Joe'
 SITE_NAME = 'Joe\'s Website'
 SITE_URL = ''
 
@@ -15,6 +16,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/New_York'
 CURRENT_YEAR = date.today().year
+CURRENT_DATE = date.today().strftime("%d %b %Y")
 
 DEFAULT_LANG = 'en'
 

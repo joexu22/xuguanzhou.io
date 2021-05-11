@@ -1,43 +1,44 @@
 /* project grid */
-.project-item{
+
+.project-item {
     height: 250px;
     text-align: center;
     margin: 20px 10px;
     border: 2px solid #aaa;
     border-radius: 5px;
     box-shadow: 3px 3px 8px #333;
-	font-family: 'Fantasque Sans Mono'
+    font-family: 'Fantasque Sans Mono'
 }
 
-.project-title{
+.project-title {
     margin-top: 20px;
     font-size: 1.4em;
     color: #7890A8;
 }
 
-.project-tag{
+.project-tag {
     color: #1e304e;
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
-.project-descr{
+.project-descr {
     font-size: 1.2em;
     padding-top: 5px;
     color: #121230;
 }
 
-.project-link{
+.project-link {
     width: 100%;
     position: absolute;
     bottom: 20px;
     left: 0;
 }
 
-@media (max-width: 768px){
-    .project-item{
+@media (max-width: 768px) {
+    .project-item {
         height: 200px;
     }
-    .project-link{
+    .project-link {
         bottom: 0px;
     }
 }

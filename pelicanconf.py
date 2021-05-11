@@ -4,7 +4,6 @@ import os
 import sys
 sys.path.append(os.curdir)
 from datetime import date
-from config.my_config import *
 from _data.resume import *
 
 AUTHOR = 'Xu GuanZhou'

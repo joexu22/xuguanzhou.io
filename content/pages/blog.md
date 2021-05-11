@@ -6,5 +6,5 @@ Slug: blog
 Summary: Blog Placement Holder
 Template: archives
 url: blog
-Save_as: blog.html
+Save_as: blog
 ---

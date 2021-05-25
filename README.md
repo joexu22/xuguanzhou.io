@@ -35,6 +35,7 @@ This website contains the following:
   * Needs to be incorporated into a CICD pipeline
 
 # Dev Notes
+* ```python3 -m pip install -r requirements.txt```
 * ```pelican content -s pelicanconf.py -t ./themes/xuguanzhou/```
 * ```pelican --listen```
 

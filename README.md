@@ -34,7 +34,7 @@ This website contains the following:
 	* Private: 172.31.95.201
   * Needs to be incorporated into a CICD pipeline
 
-# Dev Notes
+# Dev Notes (Testing)
 * ```python3 -m pip install -r requirements.txt```
 * ```pelican content -s pelicanconf.py -t ./themes/xuguanzhou/```
 * ```pelican --listen```
